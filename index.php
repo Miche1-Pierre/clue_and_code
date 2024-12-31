@@ -19,6 +19,7 @@
             <div class="adventures">
                 <a href="adventures/The_Enigma_Protocol/index.php" class="adventure-btn">The Enigma Protocol</a>
                 <a href="adventures/Binary_Shadows_The_Lost_Algorithm/index.php" class="adventure-btn">Binary Shadows The Lost Algorithm</a>
+                <a href="carte.php" class="adventure-btn">Test carte interactive</a>
             </div>
         </div>
     </div>
