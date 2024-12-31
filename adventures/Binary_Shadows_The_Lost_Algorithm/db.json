@@ -1,0 +1,34 @@
+{
+    "adventures": {
+      "The_Enigma_Protocol": {
+        "name": "The Enigma Protocol",
+        "rooms": {
+          "room1": {
+            "name": "Main Hall",
+            "objects": ["Computer", "Desk", "Lamp"],
+            "puzzle": "Solve the encryption algorithm"
+          },
+          "room2": {
+            "name": "Server Room",
+            "objects": ["Server Rack", "Cable", "Key"],
+            "puzzle": "Find the correct server code"
+          }
+        }
+      },
+      "Binary_Shadows_The_Lost_Algorithm": {
+        "name": "Binary Shadows: The Lost Algorithm",
+        "rooms": {
+          "room1": {
+            "name": "Entrance",
+            "objects": ["Paper", "Pen", "USB Drive"],
+            "puzzle": "Discover the hidden USB password"
+          },
+          "room2": {
+            "name": "Lab",
+            "objects": ["Lab Coat", "Test Tube", "Laptop"],
+            "puzzle": "Run the correct experiment"
+          }
+        }
+      }
+    }
+  }
