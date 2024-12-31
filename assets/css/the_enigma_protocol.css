@@ -1,0 +1,196 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background: #0c0b0b9a url('../images/The_Enigma_Protocol/background.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* HEADER */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px 20px;
+    z-index: 10;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    transition: background 0.3s ease;
+}
+
+.nav a:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+/* COMMON ELEMENTS */
+.overlay {
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    background-image: url('../images/parchemin.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 17%;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 20px 0;
+    text-shadow: 2px 2px 5px black;
+}
+
+p {
+    font-size: 0.7rem;
+    margin: 10px 0;
+    text-align: center;
+    line-height: 1.5;
+    color: black;
+}
+
+/* ADVENTURE START */
+.adventure-start {
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    z-index: 2;
+}
+
+.start-btn {
+    margin-top: 20px;
+    background-color: rgb(243, 102, 20);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.start-btn:hover {
+    background-color: rgb(200, 85, 18);
+}
+
+/* ROOM SELECTION */
+.room-selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.rooms {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.room-btn {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.room-btn:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* INVENTORY */
+.inventory {
+    text-align: center;
+    padding: 20px;
+}
+
+.inventory ul {
+    list-style: none;
+    margin: 20px auto;
+    padding: 0;
+    max-width: 400px;
+    text-align: left;
+}
+
+.inventory li {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+}
+
+/* PUZZLE */
+.puzzle {
+    text-align: center;
+    padding: 20px;
+}
+
+.puzzle form {
+    margin-top: 20px;
+}
+
+.puzzle input {
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+}
+
+.puzzle button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: rgb(243, 102, 20);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.puzzle button:hover {
+    background-color: rgb(200, 85, 18);
+}
