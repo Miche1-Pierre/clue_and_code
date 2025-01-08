@@ -10,11 +10,11 @@ $_SESSION['inventory'] = [];
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Binary Shadows : The Lost Algorithm</title>
-    <link rel="stylesheet" href="../../assets/css/binary_shadows_the_lost_algorithm.css">
+    <link rel="stylesheet" href="/assets/css/binary_shadows_the_lost_algorithm.css">
 </head>
 
 <body>
-    <?php include('../../includes/header.php'); ?>
+    <?php include $_SERVER["DOCUMENT_ROOT"] . '/includes/header.php'; ?>
     <div class="overlay"></div>
     <div class="adventure-start">
         <div class="adventure-story">
@@ -27,7 +27,7 @@ $_SESSION['inventory'] = [];
             <button class="start-btn" onclick="window.location.href='game.php?adventure=Binary_Shadows_The_Lost_Algorithm';">Start Adventure</button>
         </div>
     </div>
-    <?php include('../../includes/footer.php'); ?>
+    <?php include $_SERVER["DOCUMENT_ROOT"] . '/includes/footer.php'; ?>
 
 </body>
 

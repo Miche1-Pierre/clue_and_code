@@ -14,7 +14,7 @@ $_SESSION['inventory'] = [];
 </head>
 
 <body>
-    <?php include('../../includes/header.php'); ?>
+    <?php include $_SERVER["DOCUMENT_ROOT"] . '/includes/header.php'; ?>
     <div class="overlay"></div>
     <div class="adventure-start">
         <div class="adventure-story">
@@ -27,7 +27,7 @@ $_SESSION['inventory'] = [];
             <button class="start-btn" onclick="window.location.href='room.php';">Start Adventure</button>
         </div>
     </div>
-    <?php include('../../includes/footer.php'); ?>
+    <?php include $_SERVER["DOCUMENT_ROOT"] . '/includes/footer.php'; ?>
 
 </body>
 

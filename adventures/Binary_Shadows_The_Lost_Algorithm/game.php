@@ -27,7 +27,7 @@ $adventure = $data['adventures'][$adventureKey];
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo htmlspecialchars($adventure['name']); ?> - Exploration</title>
-    <link rel="stylesheet" href="../../assets/css/binary_shadows_the_lost_algorithm.css">
+    <link rel="stylesheet" href="/assets/css/binary_shadows_the_lost_algorithm.css">
 </head>
 <body>
     <header>
